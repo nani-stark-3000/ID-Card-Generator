@@ -37,10 +37,10 @@ python app.py
 ## User-Interface
 
 1. Home Page View
-![home](https://github.com/nani-stark-3000/ID-Card-Generator/blob/a1afcaa9d55549c417438ce8fe9c280846d89ec8/ScreenShots/Initial%20View.png)
+![home](https://github.com/nani-stark-3000/ID-Card-Generator/blob/bd8042a4462a86d1a9bba5b2e9ecb245c51bccdb/ScreenShots/Initial%20View.png)
 
 2. Data Filled View
-![fill](https://github.com/nani-stark-3000/ID-Card-Generator/blob/a1afcaa9d55549c417438ce8fe9c280846d89ec8/ScreenShots/Data%20Filled%20View.png)
+![fill](https://github.com/nani-stark-3000/ID-Card-Generator/blob/bd8042a4462a86d1a9bba5b2e9ecb245c51bccdb/ScreenShots/Data%20Filled%20View.png)
 
 3. Generated View
 ![generated](https://github.com/nani-stark-3000/ID-Card-Generator/blob/a1afcaa9d55549c417438ce8fe9c280846d89ec8/ScreenShots/Generated%20View.png)
