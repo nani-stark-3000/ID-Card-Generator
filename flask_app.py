@@ -48,4 +48,4 @@ def _pdf_():
     return render_template("index.html")
 
 if __name__=="__main__":
-    app.run(debug=True,port=47)
+    app.run(debug=True,port=34)
