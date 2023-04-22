@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="static/css/global.css" />
+    <link rel="stylesheet" href="static/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-3">
+      <div class="desktop-3-child"></div>
+      <img class="desktop-3-item" alt="" src="static/public/rectangle-3@2x.png" />
+      <form class="frame-parent" action="/details" method="post">
+        <div class="frame-wrapper">
+          <div class="id-card-generator-wrapper">
+            <div class="id-card-generator">ID CARD GENERATOR</div>
+          </div>
+        </div>
+        <div class="instance-parent">
+          <div class="frame-group">
+            <div class="name-wrapper"><div class="name">NAME</div></div>
+            <input class="instance-child" name="user-name" type="text" required />
+          </div>
+          <div class="frame-group">
+            <div class="name-wrapper"><div class="name">EMP ID</div></div>
+            <input class="instance-child" name="emp_id" type="text" required />
+          </div>
+        </div>
+        <div class="instance-group">
+          <div class="frame-group">
+            <div class="name-wrapper"><div class="name">MANDAL</div></div>
+            <input class="instance-child" name="mandal" type="text" required />
+          </div>
+          <div class="frame-group">
+            <div class="name-wrapper"><div class="name">SACHIVALAYAM</div></div>
+            <input class="instance-child" name="scval" type="text" required />
+          </div>
+        </div>
+        <div class="frame-parent2">
+          <div class="name-wrapper"><div class="name">DESIGNATION</div></div>
+          <input class="instance-child1" name="desig" type="text" />
+        </div>
+        <div class="submit-wrapper">
+          <button class="submit" autofocus>Submit</button>
+        </div>
+        {% if file!=undefined %}
+        <h1 align="center">Download link below</h1>
+        {% endif %}
+      </form>
+      </form>
+      {% if file!=undefined %}
+        <form class="rectangle-parent" action="/pdf" method="post">
+          <h1 align="center"><img src="static/id.png" ></h1>
+          <div class="submit-container">
+            <button class="submit" autofocus><a href="static/id.pdf" download style="color: aliceblue; text-decoration: none;">Download</a></button>
+          </div>
+        </form>
+      {% endif %}
+    </div>
+  </body>
+</html>
